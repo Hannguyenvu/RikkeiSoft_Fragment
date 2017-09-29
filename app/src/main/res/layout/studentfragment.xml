@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtHienTen"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/edtQue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quê Quán"/>
+    <EditText
+        android:id="@+id/edtNgaySinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày Tháng Năm Sinh"/>
+    <EditText
+        android:id="@+id/edtGioiTinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giới Tính"/>
+    <EditText
+        android:id="@+id/edtLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lớp"/>
+    <EditText
+        android:id="@+id/edtKhoaHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Khóa Học"/>
+    <Button
+        android:id="@+id/btnChuyen"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Chuyển"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
